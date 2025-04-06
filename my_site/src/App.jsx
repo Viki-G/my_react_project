@@ -6,6 +6,7 @@ function App() {
 
 const [name,setUsername]=useState("");
 const [password, setPassword]=useState("");
+const [status, setStatus]=useState("");
 
 
 const handleNameChange=(event)=>{
@@ -16,7 +17,10 @@ const handlePasswordChange=(event)=>{
 setPassword(event.target.value)
 }
 
+const handleSubmit=(event,actionType)=>{
 
+
+}
 
 
 
@@ -27,17 +31,17 @@ return(
 <h2>This site will have all the information about 3D modelling!</h2>
 <h3>But first, you have to sign in!</h3>
 
-<form className="form">
+<form className="form" >
 <label  for="name">Enter your username:</label>
-<input  name="name" type="text"></input>
+<input  name="name" type="text" value={name} onChange={handleNameChange}></input>
 <br></br>
 <label  for="pass">Enter your password:</label>
-<input  name="pass" type="password"></input>
+<input  name="pass" type="password" value={password} onChange={handlePasswordChange}></input>
 <br></br>
 <br></br>
 
-<button>Sign in</button>
-<button>Sign up</button>
+<button type="button" onClick={(event)=>handleSubmit(event,"signIn")}>Sign in</button>
+<button type="button" onClick={(event)=>handleSubmit(event,"signUp")}>Sign up</button>
 
 
   

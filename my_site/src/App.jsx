@@ -22,9 +22,9 @@ const handleSignIn = async () => {
     const data = await res.json();
   
     if (data.length > 0) {
-      alert("Login successful!");
+      console.log("Login successful!");
     } else {
-      alert("Invalid credentials.");
+      console.log("Invalid credentials.");
     }
   };
 
@@ -43,7 +43,7 @@ const handleSignIn = async () => {
         },
         body: JSON.stringify(newUser),
       });
-      alert("Account created!");
+      console.log("Account created!");
     }
   };
 
@@ -51,6 +51,7 @@ const handleSignIn = async () => {
 
 return(
 <>
+<div id="mainForm">
 <h1>Welcome to my Site!</h1>
 <h2>This site will have all the information about 3D modelling!</h2>
 <h3>But first, you have to sign in!</h3>
@@ -70,6 +71,7 @@ return(
 
   
 </form>
+</div>
 </>
 )
   

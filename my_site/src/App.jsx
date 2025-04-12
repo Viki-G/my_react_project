@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
 
-const [name,setUsername]=useState("");
+const [username,setUsername]=useState("");
 const [password, setPassword]=useState("");
 const [status, setStatus]=useState("");
 
@@ -17,11 +17,35 @@ const handlePasswordChange=(event)=>{
 setPassword(event.target.value)
 }
 
-const handleSubmit=(event,actionType)=>{
+const handleSignIn = async () => {
+    const res = await fetch(`http://localhost:3001/users?username=${username}`);
+    const data = await res.json();
+  
+    if (data.length > 0) {
+      alert("Login successful!");
+    } else {
+      alert("Invalid credentials.");
+    }
+  };
 
-
-}
-
+  const handleSignUp = async () => {
+    const res = await fetch(`http://localhost:3001/users?username=${username}`);
+    const data = await res.json();
+  
+    if (data.length > 0) {
+      alert("User already exists!");
+    } else {
+      const newUser = { username, password };
+      await fetch('http://localhost:3001/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newUser),
+      });
+      alert("Account created!");
+    }
+  };
 
 
 
@@ -33,15 +57,15 @@ return(
 
 <form className="form" >
 <label  for="name">Enter your username:</label>
-<input  name="name" type="text" value={name} onChange={handleNameChange}></input>
+<input  name="name" type="text" value={username} onChange={handleNameChange}></input>
 <br></br>
 <label  for="pass">Enter your password:</label>
 <input  name="pass" type="password" value={password} onChange={handlePasswordChange}></input>
 <br></br>
 <br></br>
 
-<button type="button" onClick={(event)=>handleSubmit(event,"signIn")}>Sign in</button>
-<button type="button" onClick={(event)=>handleSubmit(event,"signUp")}>Sign up</button>
+<button type="button" onClick={handleSignIn}>Sign in</button>
+<button type="button" onClick={handleSignUp}>Sign up</button>
 
 
   

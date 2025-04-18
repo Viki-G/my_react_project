@@ -8,6 +8,8 @@
 
 
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
@@ -30,7 +32,9 @@ border-radius: 12px;
 display: 'flex';
 flex-direction: 'column';
 gap: '10px';
-width: '300px'
+width: '300px';
+place-items: center;
+
 }
 
 #mainForm{

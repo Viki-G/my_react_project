@@ -15,17 +15,17 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: rgb(235, 128, 15);;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: rgb(235, 128, 15);;
 }
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+ /* place-items: center;*/
   min-width: 320px;
   min-height: 100vh;
 }
@@ -47,7 +47,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: rgb(235, 128, 15);;
 }
 button:focus,
 button:focus-visible {

@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import LogForm from './LogForm.jsx'
 import Home from './Home.jsx'
 import Navbar from './Navbar.jsx';
+import History from './History.jsx';
 
 
 import './App.css'
@@ -20,11 +21,14 @@ return(
         <LogForm onLogin={() => setIsLoggedIn(true)} />
       ) : (
         <>
+        <Routes>
+           <Route path="/home" element={<Home/>}></Route>
+           <Route path="/" element={<App/>}></Route>
+           <Route path="/history" element={<History/>}></Route>
+
+        </Routes>
           
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            
-          </Routes>
+    
         </>
       )}
     </div>

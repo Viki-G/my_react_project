@@ -29,7 +29,7 @@ function LogForm({ onLogin })
         if (data.length > 0) {
           console.log("Login successful!");
           onLogin();
-         // navigate('/home');
+          navigate('/home');
           
           
           

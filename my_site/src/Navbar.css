@@ -9,6 +9,7 @@
 }
 #nav{
 background-color: rgb(24, 24, 24);
+border-radius: 12px;
 }
 li {
     float: left;

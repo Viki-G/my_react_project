@@ -9,7 +9,7 @@ return(
     <ul>
     <li><Link to="/home">Home</Link></li>
     <li><Link to="/history">History</Link></li>
-    <li><Link to="/Animations">Animations</Link></li>
+    <li><Link to="/animation">Animations</Link></li>
 
     </ul>
 </nav>

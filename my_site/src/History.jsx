@@ -28,6 +28,7 @@ return(
          squash and stretch, and character animation — a glimpse of Pixar’s future style.</p>
     <p>1986: Pixar was officially founded, and the same year it released Luxo Jr., a short film that won critical 
         acclaim and introduced the world to emotionally expressive 3D animation.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zmhZm5FRV4s?si=2-C8-3wR_sf5zSZy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div id="his3">
@@ -37,6 +38,7 @@ return(
 1993: Jurassic Park used CGI dinosaurs with unprecedented realism, blending animatronics and 3D animation.
 
 1995: Pixar’s Toy Story became the first fully 3D animated feature film — a landmark that changed animation forever.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IEGQfrpnjWk?si=-o6WzeK9Py_o0Cmn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
@@ -48,7 +50,9 @@ Films like Shrek (2001), Finding Nemo (2003), and The Incredibles (2004) pushed 
 
 Studios started integrating motion capture (mo-cap) to bring realism to human movement — seen in The Polar Express 
 (2004) and Avatar (2009), which blended performance capture with 3D environments in groundbreaking ways.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JsmVxeumyqw?si=DS4cJIBvcnBK2YaF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
 
 <div id="his5">
 <h3>2010s–Now: Real-Time, Indie, and Innovation</h3>
@@ -61,6 +65,7 @@ Open-source tools like Blender have democratized 3D animation, giving solo creat
 3D is now used in medicine, architecture, education, and the metaverse — far beyond film and TV.
 
 </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0kNwUIP85a8?si=i3NICkjwto_h5gMJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div id="his6">

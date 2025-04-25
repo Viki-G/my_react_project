@@ -5,6 +5,7 @@ import LogForm from './LogForm.jsx'
 import Home from './Home.jsx'
 import Navbar from './Navbar.jsx';
 import History from './History.jsx';
+import Animation from './Animation.jsx';
 
 
 import './App.css'
@@ -25,6 +26,7 @@ return(
            <Route path="/home" element={<Home/>}></Route>
            <Route path="/" element={<App/>}></Route>
            <Route path="/history" element={<History/>}></Route>
+           <Route path="/animation" element={<Animation/>}></Route>
 
         </Routes>
           

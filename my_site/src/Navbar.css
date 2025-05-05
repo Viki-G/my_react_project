@@ -10,6 +10,14 @@
 #nav{
 background-color: rgb(24, 24, 24);
 border-radius: 12px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-position: left bottom;
+
+
+
 }
 li {
     float: left;
@@ -20,3 +28,8 @@ li {
     padding: 8px;
     
   }
+#nav a:hover {
+  color: white;
+  background: linear-gradient(90deg, rgb(211, 157, 86) 0%, rgb(255, 85, 0) 100%);
+
+}

@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Toy Story",
+      "studio": "Pixar",
+      "year": 1995,
+      "type": "3D",
+      "preview": "/images/toyStory.jpg"
+    },
+    {
+      "title": "Finding Nemo",
+      "studio": "Pixar",
+      "year": 2003,
+      "type": "3D",
+      "preview": "/images/findingNemo.jpg"
+    },
+    {
+      "title": "The Lion King",
+      "studio": "Disney",
+      "year": 1994,
+      "type": "2D",
+      "preview": "/images/lionKing.jpg"
+    },
+    {
+      "title": "Frozen",
+      "studio": "Disney",
+      "year": 2013,
+      "type": "3D",
+      "preview": "/images/frozen.jpg"
+    },
+    {
+        "title": "Encanto",
+        "studio": "Disney",
+        "year": 2021,
+        "type": "3D",
+        "preview": "/images/encanto.jpg"
+      }
+  
+  ]

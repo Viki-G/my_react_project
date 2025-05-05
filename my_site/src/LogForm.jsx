@@ -12,8 +12,7 @@ function LogForm({ onLogin })
     const navigate = useNavigate();
     const [logIn,setIsLoggedIn]=useState(false);
     
-    
-    
+
     const handleNameChange=(event)=>{
     setUsername(event.target.value)
     }
@@ -22,10 +21,17 @@ function LogForm({ onLogin })
     setPassword(event.target.value)
     }
     
-    const handleSignIn = async () => {
+    const handleSignIn = async (e) => {
+      if (!username || !password) {
+        setStatus("Please fill in both username and password.");
+        return;
+      }  
+      
+
         const res = await fetch(`http://localhost:3001/users?username=${username}`);
         const data = await res.json();
-      
+        
+        e.preventDefault();
         if (data.length > 0) {
           console.log("Login successful!");
           onLogin();
@@ -38,9 +44,16 @@ function LogForm({ onLogin })
         }
       };
     
-      const handleSignUp = async () => {
+      const handleSignUp = async (e) => {
+         
+        if (!username || !password) {
+          setStatus("Please fill in both username and password.");
+          return;
+        }  
+
         const res = await fetch(`http://localhost:3001/users?username=${username}`);
         const data = await res.json();
+        e.preventDefault();
       
         if (data.length > 0) {
           alert("User already exists!");
@@ -81,6 +94,8 @@ function LogForm({ onLogin })
     
       
     </form>
+
+    {status && <p style={{ color: 'white' }}>{status}</p>}
     </div>
 
 

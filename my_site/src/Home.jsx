@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './Navbar';
+import './Home.css';
 function Home()
 {
 return(
@@ -17,6 +18,17 @@ return(
     tutorials, and insights into how 3D and CGI shape modern storytelling in games, films, advertising, and beyond.</p>
     <p>Let’s bring imagination to motion — one frame at a time.</p>
     </div>
+    <br></br>
+    <div className="hover-card">
+  <div className="image-container">
+    <img src="/images/process.jpg" alt="Animation process" className="preview main-image" />
+    <div className="overlay">
+      <p>Filled with gorgeous illustrations and concept art from the hit Netflix series, The Art and Making of Arcane is an immersive journey behind the scenes of the Emmy Award-winning Animated Series!
+
+The Art and Making of Arcane takes readers through the visual journey of Riot Games’ and Fortiche's revolutionary animated series. Featuring early art styles, evolving character designs, and jaw-dropping worldbuilding artwork, this volume is the definitive compendium of Arcane’s creative process and vision.</p>
+    </div>
+  </div>
+</div>
     </>
 )
 

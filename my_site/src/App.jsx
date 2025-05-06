@@ -13,26 +13,31 @@ import './App.css'
 function App() {
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleLogin = () => {
+    setIsLoggedIn(true);
+  };
   
 return(
   <>
   
     <div>
-      {!isLoggedIn ? (
-        <LogForm onLogin={() => setIsLoggedIn(true)} />
-      ) : (
-        <>
+      {isLoggedIn}
+        
+      
+        
         <Routes>
            <Route path="/home" element={<Home/>}></Route>
            <Route path="/" element={<App/>}></Route>
+           <Route path="/login" element={<LogForm onLogin={handleLogin}/>}></Route>
            <Route path="/history" element={<History/>}></Route>
            <Route path="/animation" element={<Animation/>}></Route>
 
         </Routes>
           
     
-        </>
-      )}
+        
+      
     </div>
 </>
 )

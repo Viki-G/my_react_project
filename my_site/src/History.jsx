@@ -1,10 +1,12 @@
 import Navbar from "./Navbar";
+import './History.css';
 function History()
 {
 return(
 <>
 <Navbar/>
 <h1>The history of 3D animation</h1>
+<div className="whole">
 <div id="his1">
     <h3>1960s–1970s: The Early Experiments</h3>
     <p>3D animation began as an experimental concept in the late 1960s. Early pioneers like 
@@ -71,6 +73,8 @@ Open-source tools like Blender have democratized 3D animation, giving solo creat
 <div id="his6">
 <h3>The Future</h3>
 <p>With AI-assisted animation, virtual production (like in The Mandalorian), and immersive tech like AR/VR, the next chapter of 3D animation is being written right now — faster and more creatively than ever.</p>
+</div>
+
 </div>
 </>
 

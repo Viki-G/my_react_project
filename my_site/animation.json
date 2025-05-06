@@ -33,6 +33,181 @@
         "year": 2021,
         "type": "3D",
         "preview": "/images/encanto.jpg"
+      },
+      {
+        "title": "Cars",
+        "studio": "Pixar",
+        "year": 2006,
+        "type": "3D",
+        "preview": "/images/cars.jpg"
+      },
+      {
+        "title": "Cars 2",
+        "studio": "Pixar",
+        "year": 2011,
+        "type": "3D",
+        "preview": "/images/cars2.jpg"
+      },
+      {
+        "title": "Cars 3",
+        "studio": "Pixar",
+        "year": 2017,
+        "type": "3D",
+        "preview": "/images/cars3.jpeg"
+      },
+      {
+        "title": "WALL-E",
+        "studio": "Disney",
+        "year": 2008,
+        "type": "3D",
+        "preview": "/images/walle.jpg"
+      },
+      {
+        "title": "Brave",
+        "studio": "Pixar",
+        "year": 2021,
+        "type": "3D",
+        "preview": "/images/brave.jpg"
+      },
+      {
+        "title": "Inside out",
+        "studio": "Disney",
+        "year": 2015,
+        "type": "3D",
+        "preview": "/images/insideOut.jpg"
+      },
+      {
+        "title": "Inside out 2",
+        "studio": "Pixar",
+        "year": 2024,
+        "type": "3D",
+        "preview": "/images/insideOut2.jpg"
+      },
+      {
+        "title": "Coco",
+        "studio": "Pixar",
+        "year": 2017,
+        "type": "3D",
+        "preview": "/images/coc.jpeg"
+      },
+      {
+        "title": "Onward",
+        "studio": "Disney",
+        "year": 2020,
+        "type": "3D",
+        "preview": "/images/onward.jpeg"
+      },
+      {
+        "title": "Luca",
+        "studio": "Pixar",
+        "year": 2021,
+        "type": "3D",
+        "preview": "/images/luca.png"
+      },
+      {
+        "title": "Turning Red",
+        "studio": "Pixar",
+        "year": 2022,
+        "type": "3D",
+        "preview": "/images/turningRed.jpg"
+      },
+      {
+        "title": "Elemental",
+        "studio": "Disney",
+        "year": 2023,
+        "type": "3D",
+        "preview": "/images/elemental.jpeg"
+      },
+      {
+        "title": "Kung Fu Panda",
+        "studio": "DreamWorks",
+        "year": 2008,
+        "type": "3D",
+        "preview": "/images/kungFuPanda.jpg"
+      },
+      {
+        "title": "Kung Fu Panda 2",
+        "studio": "DreamWorks",
+        "year": 2011,
+        "type": "3D",
+        "preview": "/images/kungFuPanda2.jpg"
+      },
+      {
+        "title": "Kung Fu Panda 3",
+        "studio": "DreamWorks",
+        "year": 2016,
+        "type": "3D",
+        "preview": "/images/kungFuPanda3.jpg"
+      },
+      {
+        "title": "Kung Fu Panda 4",
+        "studio": "DreamWorks",
+        "year": 2024,
+        "type": "3D",
+        "preview": "/images/kungFuPanda4.jpg"
+      },
+      {
+        "title": "How to train your dragon",
+        "studio": "DreamWorks",
+        "year": 2010,
+        "type": "3D",
+        "preview": "/images/howToTrainYourDragon.jpg"
+      },
+      {
+        "title": "How to train your dragon 2",
+        "studio": "DreamWorks",
+        "year": 2014,
+        "type": "3D",
+        "preview": "/images/howToTrainYourDragon2.jpg"
+      },
+      {
+        "title": "How to train your dragon 3",
+        "studio": "DreamWorks",
+        "year": 2019,
+        "type": "3D",
+        "preview": "/images/howToTrainYourDragon3.jpg"
+      },
+      {
+        "title": "Puss in Boots",
+        "studio": "DreamWorks",
+        "year": 2011,
+        "type": "3D",
+        "preview": "/images/pussInBoots.jpg"
+      },
+      {
+        "title": "Puss in Boots 2- The Last Wish",
+        "studio": "DreamWorks",
+        "year": 2022,
+        "type": "3D",
+        "preview": "/images/pussInBoots2.jpg"
+      },
+      {
+        "title": "Trolls",
+        "studio": "DreamWorks",
+        "year": 2016,
+        "type": "3D",
+        "preview": "/images/trolls.jpg"
+      },
+      {
+        "title": "Trolls 2- World Tour",
+        "studio": "DreamWorks",
+        "year": 2020,
+        "type": "3D",
+        "preview": "/images/trolls2.jpg"
+      },
+      {
+        "title": "Trolls 3- Band Together",
+        "studio": "DreamWorks",
+        "year": 2023,
+        "type": "3D",
+        "preview": "/images/trolls3.jpg"
+      },
+      {
+        "title": "Nimona",
+        "studio": "Annapurna Pictures",
+        "year": 2023,
+        "type": "3D",
+        "preview": "/images/nimona.png"
       }
   
   ]

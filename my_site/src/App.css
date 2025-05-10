@@ -2,7 +2,10 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
   
 }
 
@@ -13,11 +16,6 @@ body{
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .card {
   padding: 2em;
@@ -37,12 +35,21 @@ flex-direction: 'column';
 gap: '10px';
 width: '300px';
 place-items: center;
+align-items: center;
 
 }
 
 #mainForm{
 background-color: rgba(251, 75, 6, 0.809);
 border-radius: 12px;
+border:2px solid white;
+ 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-image: url('/images/backgroundHome.jpg'); 
+  background-size: cover;
+  background-position: center;
 
 
 }

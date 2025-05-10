@@ -5,6 +5,8 @@
     margin: 0;
     gap: 1rem; 
     overflow: hidden;
+   padding: 16px 8px; 
+    
   
 }
 #nav{
@@ -15,6 +17,8 @@ top: 0;
 left: 0;
 width: 100%;
 background-position: left bottom;
+z-index: 1;
+
 
 
 
@@ -26,6 +30,7 @@ li {
   li a {
     display: block;
     padding: 8px;
+   
     
   }
 #nav a:hover {

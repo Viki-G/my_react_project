@@ -1,0 +1,85 @@
+{ "process": [
+    {
+      "process": "Concept and Storyboarding",
+      "content":"Creating an animation is a journey that begins with an idea—a spark of imagination that eventually transforms into moving visuals. It starts with concept development, where the story takes shape, often through a written script. From there, artists craft a storyboard, which is essentially a comic strip version of the animation, mapping out key scenes and moments to visualize how the story will unfold.",
+      "image":"/images/storyboard.jpeg"
+    },
+ {
+      "process": "Design and Pre-Production",
+      "content":"Once the storyboard is approved, the design phase begins. Characters are carefully developed with unique looks and personalities, while environments and backgrounds are created to bring the story’s world to life. This is also the stage where an animatic may be produced—a rough version of the animation using still images from the storyboard, often timed to the voice acting or music, giving a sense of pacing and flow.",
+       "image":"/images/designs.jpg"
+    },
+{
+      "process": "Modeling and Rigging (mostly for 3D animation)",
+      "content":"Depending on whether the animation is 2D or 3D, the next steps vary slightly. In 2D animation, artists draw keyframes—important poses in a character’s motion—and then create the in-between frames to smooth out the movement. In 3D animation, the characters are first modeled in three dimensions using specialized software. These models are then rigged, meaning they’re given a virtual skeleton that allows them to move realistically. Animators then manipulate these rigs to create lifelike performances.",
+       "image":"/images/rigging.jpg"
+    },
+{
+      "process": "Animation- the core part",
+      "content":"But animation doesn’t stop at just keyframes. The frames in between—called in-betweens or tweens—fill out the motion, making it fluid and believable. In traditional hand-drawn animation, artists draw these in-between frames manually. In computer animation, software can often help generate them, though animators still refine everything for timing and feel.",
+       "image":"/images/animation.jpg"
+    },
+{
+"process": "Texturing",
+"content": "Texturing is the process of adding color, surface detail, and material characteristics to your 3D models. Think of it like wrapping your character or object in a digital skin. A plain 3D model might just be gray and smooth, but once textured, it could look like rough stone, glossy plastic, soft fabric, or weathered wood. ",
+ "image":"/images/texturing.jpg"
+},
+
+{
+"process": "Lighting",
+"content": "Lighting is more than just making things visible—it sets the mood and tells the viewer where to look. In animation, lighting is virtual, but it’s guided by real-world principles. Artists use different light types—point lights, spotlights, directional lights—and position them strategically to simulate sunlight, lamps, candles, or even glowing magic.",
+ "image":"/images/lighting.jpg"
+},
+
+{
+"process": "Rendering",
+"content": "Rendering is the final step in this trio—it’s where everything you’ve built gets translated into finished images or frames. The software takes into account all the geometry, textures, lighting, and camera settings and calculates how each frame should look, pixel by pixel.",
+ "image":"/images/rendering.jpg"
+},
+
+{
+"process": "Compositing",
+"content": "At its core, compositing is the art of layering and blending everything in your scene. Imagine each element of a shot—characters, background, effects, shadows, lighting passes—as separate layers. The compositor takes all these and merges them, adjusting color, depth, focus, and more to make it feel like one complete image.",
+ "image":"/images/compositing.jpeg"
+},
+
+{
+"process": "Visual Effects (VFX)",
+"content": "VFX kicks things up a notch. This is where magic, explosions, smoke, rain, fire, energy blasts, particle trails—basically all the cool stuff—gets added in. Some effects are simulated in 3D before rendering, but others are added during compositing as 2D elements or simulations. ",
+ "image":"/images/vfx.png"
+},
+
+{
+"process": "Sound Design",
+"content": "Sound design is the art of creating all the sounds in an animation that aren't music or dialogue. It's the world of foley (the art of creating sound effects) and sound manipulation. Every sound you hear is intentional—footsteps, creaking doors, the rustle of clothing, the swoosh of a sword being drawn. The goal is to make everything feel real and help anchor the action.",
+ "image":"/images/sound.jpg"
+},
+
+{
+"process": "Music",
+"content": "Music is often what drives the emotion of a scene. It can build tension, highlight joy, or underscore sadness, but it also acts as a tool for pacing and theme development. Think about how the music swells in a hero’s moment or fades softly in a reflective scene. The melody and rhythm can set the entire tone of a story.",
+ "image":"/images/music.jpg"
+},
+
+{
+"process": "Editing ",
+"content": "Editing is the process of assembling all the animated footage, sound, and music into a cohesive, flowing piece. It’s like assembling a puzzle where all the pieces—images, sound, effects—finally fit together to create the full picture. In animation, this is often done in editing software like Adobe Premiere Pro, Final Cut Pro, or Avid Media Composer, where the editor organizes the shots, tweaks the timing, and fine-tunes transitions.",
+ "image":"/images/editing.png"
+},
+
+{
+"process": "Final Output",
+"content": "Once all this technical work is done, there’s often a final round of polishing—whether that’s tweaking small details in the animation, adding credits, or even creating promotional materials like trailers, posters, or social media clips. These final touches help launch the animation into the world.",
+ "image":"/images/finishing.jpg"
+},
+
+{
+"process": "Streaming",
+"content": "Once everything is wrapped up, the animation is ready to hit theaters, streaming platforms, TV screens, or whatever platform it's meant for. All the hard work is now a finished product that an audience can enjoy and experience.",
+ "image":"/images/streaming.jpeg"
+}
+
+
+
+ ]
+}

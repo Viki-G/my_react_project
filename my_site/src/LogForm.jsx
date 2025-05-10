@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import Home from './Home.jsx'
 
+
 function LogForm({ onLogin })
 {
 
@@ -35,7 +36,9 @@ function LogForm({ onLogin })
         
         e.preventDefault();
         if (data.length > 0) {
+
           console.log("Login successful!");
+          setStatus("");
           onLogin();
           navigate('/home');
           
@@ -43,6 +46,10 @@ function LogForm({ onLogin })
           
         } else {
           console.log("Invalid credentials.");
+          setUsername("");
+          setPassword("");
+          setStatus("");
+          setStatus("Invalid credentials, please, try again.");
         }
       };
     
@@ -69,6 +76,10 @@ function LogForm({ onLogin })
             body: JSON.stringify(newUser),
           });
           console.log("Account created!");
+          setStatus("Account created!");
+          setUsername("");
+          setPassword("");
+        
         }
       };
     

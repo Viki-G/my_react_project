@@ -54,3 +54,9 @@
   .hover-card:hover .overlay {
     opacity: 1;
   }
+
+  body{
+    background-image: url("/images/backgroundHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

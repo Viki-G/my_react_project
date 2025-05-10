@@ -17,6 +17,7 @@ return(
     <li><Link to="/home">Home</Link></li>
     <li><Link to="/history">History</Link></li>
     <li><Link to="/animation">Animations</Link></li>
+    <li><Link to="/process">Process</Link></li>
     <li className="liLogOut" ><button className="logOut" onClick={handleLogOut}>LogOut</button></li>
 
     </ul>

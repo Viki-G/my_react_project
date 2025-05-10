@@ -1,0 +1,48 @@
+.process-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.process-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.process-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.process-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border-left: 6px solid rgb(255, 85, 0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.process-step-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(255, 85, 0); 
+  margin-bottom: 0.5rem;
+}
+
+.process-description {
+  font-size: 1rem;
+  color: rgb(255, 85, 0); 
+  line-height: 1.6;
+}
+
+.process-image {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}

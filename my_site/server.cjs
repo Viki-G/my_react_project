@@ -1,13 +1,18 @@
 const express = require('express');
-const cors = require('cors');  // Import CORS package
+const cors = require('cors'); 
 const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const port = 3002;
+const port = 3003;
 
-// Enable CORS for all domains (by default allows all origins)
-app.use(cors());  // CORS must be before routes
+
+app.use(cors());
+
+app.use(cors({
+  origin: '*',
+  methods: 'GET', 
+}));
 
 const filePath = path.join(__dirname, 'animation.json');
 console.log(`Looking for file at: ${filePath}`);

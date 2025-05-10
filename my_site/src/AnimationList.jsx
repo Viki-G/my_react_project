@@ -6,7 +6,7 @@ const AnimationList = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:3002/animation')
+    fetch('http://localhost:3003/animation')
       .then((response) => response.json())
       .then((data) => {
         setAnimations(data);

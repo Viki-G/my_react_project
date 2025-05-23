@@ -16,6 +16,7 @@ function Process()
   return (
     <>
     <Navbar/>
+    <br></br>
    <div className="process-container">
       <h1 className="process-title">Process of Animation</h1>
       <div className="process-list">

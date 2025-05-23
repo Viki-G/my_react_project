@@ -5,6 +5,7 @@ function History()
 return(
 <>
 <Navbar/>
+<br></br>
 <h1>The history of 3D animation</h1>
 <div className="whole">
 <div id="his1">

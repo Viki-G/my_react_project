@@ -6,6 +6,7 @@ function Home()
 return(
     <>
     <Navbar/>
+    <br></br>
     <h1>Welcome to the home page!</h1>
     <div id="mainHome">
     <p>You are going to learn a lot about 3D animation, its history, how it is made and much more!</p>

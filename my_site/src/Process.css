@@ -2,6 +2,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  animation: fadeInUp 1s ease forwards;
 }
 
 .process-title {
@@ -45,4 +46,15 @@
   object-fit: cover;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -3,6 +3,8 @@
     padding: 1rem;
     color: white;
     border-radius: 25px;
+      backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .hover-card {
@@ -13,6 +15,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+     animation: fadeIn 0.6s ease-out both;
   }
   
   .image-container {
@@ -60,3 +63,24 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  h1{
+    text-align: center;
+     animation: fadeIn 0.6s ease-out both;
+
+  }
+
+  @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#mainHome{
+   animation: fadeIn 0.6s ease-out both;
+}
+

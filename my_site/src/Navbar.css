@@ -11,7 +11,7 @@
 }
 #nav{
 background-color: rgb(24, 24, 24);
-border-radius: 12px;
+/*border-radius: 12px;*/
 position: fixed;
 top: 0;
 left: 0;
@@ -25,6 +25,7 @@ z-index: 1;
 }
 li {
     float: left;
+    
   }
   
   li a {
@@ -36,6 +37,7 @@ li {
 #nav a:hover {
   color: white;
   background: linear-gradient(90deg, rgb(211, 157, 86) 0%, rgb(255, 85, 0) 100%);
+  border-radius: 12px;
 
 }
 

@@ -7,6 +7,7 @@ return(
 
     <>
     <Navbar/>
+    <br></br>
     <h1>Some animations examples</h1>
     <AnimationList/>
     </>
